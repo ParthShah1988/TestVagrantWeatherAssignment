@@ -1,0 +1,15 @@
+2020-10-05 01:12:30 INFO  TestVagrant_Coding_Assignment_V5:27 - Sending request to API
+  2020-10-05 01:12:36 INFO  TestVagrant_Coding_Assignment_V5:22 - ***Starting TC-02 Get Weather details from API***
+  2020-10-05 01:12:36 INFO  TestVagrant_Coding_Assignment_V5:43 - Checking response status code
+  2020-10-05 01:12:36 INFO  TestVagrant_Coding_Assignment_V5:52 - Checking response status line
+  2020-10-05 01:12:36 INFO  TestVagrant_Coding_Assignment_V5:61 - Checking response time
+  2020-10-05 01:12:36 INFO  TestVagrant_Coding_Assignment_V5:75 - Checking response body
+  2020-10-05 01:12:38 INFO  TestVagrant_Coding_Assignment_V5:159 - Finished with GetWeatherAPI
+  2020-10-05 01:12:38 INFO  TestVagrant_Coding_Assignment_V5:13 - ***Starting comparison on NDTV UI values and API values***
+  2020-10-05 01:12:38 INFO  TestVagrant_Coding_Assignment_V5:16 - ***Comparing City names on NDTV UI and API***
+  2020-10-05 01:12:38 INFO  TestVagrant_Coding_Assignment_V5:21 - ***Comparing weather conditions on NDTV UI and API***
+  2020-10-05 01:12:38 INFO  TestVagrant_Coding_Assignment_V5:26 - ***Comparing wind speed on NDTV UI and API***
+  2020-10-05 01:12:38 INFO  TestVagrant_Coding_Assignment_V5:31 - ***Comparing humidity on NDTV UI and API***
+  2020-10-05 01:12:38 INFO  TestVagrant_Coding_Assignment_V5:36 - ***Comparing temperature on NDTV UI and API***
+  2020-10-05 01:12:38 INFO  TestVagrant_Coding_Assignment_V5:40 - ***Finished comparison on NDTV UI values and API values***
+  

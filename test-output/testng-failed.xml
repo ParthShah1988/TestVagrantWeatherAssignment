@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestVagrant_Assignment]">
+  <listeners>
+    <listener class-name="com.TestV.utilities.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="TC-01(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.TestV.apiTestCases.Test_002_GetRequestWeather">
+        <methods>
+          <include name="tearDown"/>
+          <include name="getAPIWeatherDetails"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.TestV.apiTestCases.Test_002_GetRequestWeather -->
+      <class name="com.TestV.testCases.TC_003_Compare_NDTV_API">
+        <methods>
+          <include name="compareNDTV_API"/>
+        </methods>
+      </class> <!-- com.TestV.testCases.TC_003_Compare_NDTV_API -->
+    </classes>
+  </test> <!-- TC-01(failed) -->
+</suite> <!-- Failed suite [TestVagrant_Assignment] -->

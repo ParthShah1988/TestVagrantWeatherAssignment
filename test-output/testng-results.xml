@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestVagrant_Assignment" duration-ms="45163" started-at="2020-10-05T01:11:53 IST" finished-at="2020-10-05T01:12:38 IST">
+    <groups>
+    </groups>
+    <test name="TC-01" duration-ms="45163" started-at="2020-10-05T01:11:53 IST" finished-at="2020-10-05T01:12:38 IST">
+      <class name="com.TestV.testCases.TC_001_NDTVWeatherDetails">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.TestV.testCases.TC_001_NDTVWeatherDetails@11392934]" name="setup" is-config="true" duration-ms="11456" started-at="2020-10-05T01:11:54 IST" finished-at="2020-10-05T01:12:05 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="getNDTVWeatherDetails()[pri:0, instance:com.TestV.testCases.TC_001_NDTVWeatherDetails@11392934]" name="getNDTVWeatherDetails" duration-ms="23952" started-at="2020-10-05T01:12:05 IST" finished-at="2020-10-05T01:12:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getNDTVWeatherDetails -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.TestV.testCases.TC_001_NDTVWeatherDetails@11392934]" name="teardown" is-config="true" duration-ms="1136" started-at="2020-10-05T01:12:29 IST" finished-at="2020-10-05T01:12:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.TestV.testCases.TC_001_NDTVWeatherDetails -->
+      <class name="com.TestV.apiTestCases.Test_002_GetRequestWeather">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.TestV.apiTestCases.Test_002_GetRequestWeather@6892b3b6]" name="setup" is-config="true" duration-ms="35" started-at="2020-10-05T01:12:30 IST" finished-at="2020-10-05T01:12:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="getWeatherDetails()[pri:0, instance:com.TestV.apiTestCases.Test_002_GetRequestWeather@6892b3b6]" name="getWeatherDetails" is-config="true" duration-ms="6164" started-at="2020-10-05T01:12:30 IST" finished-at="2020-10-05T01:12:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getWeatherDetails -->
+        <test-method status="PASS" signature="getAPIWeatherDetails()[pri:0, instance:com.TestV.apiTestCases.Test_002_GetRequestWeather@6892b3b6]" name="getAPIWeatherDetails" duration-ms="1949" started-at="2020-10-05T01:12:36 IST" finished-at="2020-10-05T01:12:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAPIWeatherDetails -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.TestV.apiTestCases.Test_002_GetRequestWeather@6892b3b6]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-10-05T01:12:38 IST" finished-at="2020-10-05T01:12:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.TestV.apiTestCases.Test_002_GetRequestWeather -->
+      <class name="com.TestV.testCases.TC_003_Compare_NDTV_API">
+        <test-method status="PASS" signature="compareNDTV_API()[pri:0, instance:com.TestV.testCases.TC_003_Compare_NDTV_API@6e6f2380]" name="compareNDTV_API" duration-ms="13" started-at="2020-10-05T01:12:38 IST" finished-at="2020-10-05T01:12:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- compareNDTV_API -->
+      </class> <!-- com.TestV.testCases.TC_003_Compare_NDTV_API -->
+    </test> <!-- TC-01 -->
+  </suite> <!-- TestVagrant_Assignment -->
+</testng-results>

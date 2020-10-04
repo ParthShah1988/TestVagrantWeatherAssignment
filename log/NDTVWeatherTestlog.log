@@ -1,0 +1,9 @@
+2020-10-05 01:12:05 INFO  TestVagrant_Coding_Assignment_V5:15 - ***********Starting NDTV weather details************
+  2020-10-05 01:12:05 INFO  TestVagrant_Coding_Assignment_V5:17 - Opening the browser
+  2020-10-05 01:12:07 INFO  TestVagrant_Coding_Assignment_V5:24 - Setting cityname
+  2020-10-05 01:12:17 INFO  TestVagrant_Coding_Assignment_V5:28 - Checkbox validation on City name is true
+  2020-10-05 01:12:23 INFO  TestVagrant_Coding_Assignment_V5:31 - Checking the city on the map
+  2020-10-05 01:12:26 INFO  TestVagrant_Coding_Assignment_V5:34 - fetching the weather condition details from map 
+
+  2020-10-05 01:12:29 INFO  TestVagrant_Coding_Assignment_V5:48 - ***********NDTV weather details completed**********
+  

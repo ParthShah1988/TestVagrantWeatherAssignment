@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="18531" started-at="2020-10-04T21:40:41 IST" finished-at="2020-10-04T21:41:00 IST">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="18531" started-at="2020-10-04T21:40:41 IST" finished-at="2020-10-04T21:41:00 IST">
+      <class name="com.TestV.apiTestCases.Test_002_GetRequestWeather">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.TestV.apiTestCases.Test_002_GetRequestWeather@69e1dd28]" name="setup" is-config="true" duration-ms="395" started-at="2020-10-04T21:40:41 IST" finished-at="2020-10-04T21:40:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="getWeatherDetails()[pri:0, instance:com.TestV.apiTestCases.Test_002_GetRequestWeather@69e1dd28]" name="getWeatherDetails" is-config="true" duration-ms="12912" started-at="2020-10-04T21:40:42 IST" finished-at="2020-10-04T21:40:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getWeatherDetails -->
+        <test-method status="PASS" signature="getAPIWeatherDetails()[pri:0, instance:com.TestV.apiTestCases.Test_002_GetRequestWeather@69e1dd28]" name="getAPIWeatherDetails" duration-ms="5098" started-at="2020-10-04T21:40:55 IST" finished-at="2020-10-04T21:41:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAPIWeatherDetails -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.TestV.apiTestCases.Test_002_GetRequestWeather@69e1dd28]" name="tearDown" is-config="true" duration-ms="2" started-at="2020-10-04T21:41:00 IST" finished-at="2020-10-04T21:41:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.TestV.apiTestCases.Test_002_GetRequestWeather -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

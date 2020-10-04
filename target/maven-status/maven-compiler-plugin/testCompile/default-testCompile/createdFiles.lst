@@ -1,0 +1,13 @@
+com\TestV\testCases\BaseClass.class
+com\TestV\apiTestCases\GetRequestWeather.class
+com\TestV\testCases\TC_001_NDTVWeatherDetails.class
+com\TestV\utilities\XLUtils.class
+com\TestV\utilities\Comparator.class
+com\TestV\utilities\ReadConfig.class
+com\TestV\utilities\ReadUserInputFromExcel2.class
+com\TestV\pageObjects\NDTVWeatherMapPage.class
+com\TestV\apiTestCases\Test_002_GetRequestWeather.class
+com\TestV\testCases\TC_003_Compare_NDTV_API.class
+com\TestV\BaseAPI\APIBaseClass.class
+com\TestV\utilities\ReadUserInputFromExcel.class
+com\TestV\utilities\Listeners.class
