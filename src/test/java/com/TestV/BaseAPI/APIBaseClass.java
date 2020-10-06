@@ -27,7 +27,7 @@ public class APIBaseClass
 	public String baseURI = readconfig.getBaseURI();//Fetching from config file, fixed value
 	public String apiKey = readconfig.getApiToken();//Fetching from config file, fixed value
 	
-	public static String cityName =  ReadUserInputFromExcel.getUserCityName();//ReadUserInputFromExcel.userInputCityName;//Fetching from excel file, User input
+	public static String cityName =  ReadUserInputFromExcel.getUserCityName();//Fetching from excel file, User input
 	public static String units = ReadUserInputFromExcel.getUserUnits().trim();//Fetching from excel file, User input
 	
 	
@@ -37,5 +37,6 @@ public class APIBaseClass
 		apilogger = Logger.getLogger("TestVagrant_Coding_Assignment_V5");
     	PropertyConfigurator.configure(readconfig.getAPILog4jPath());
     	apilogger.setLevel(Level.DEBUG);
+    	
 	}
 }

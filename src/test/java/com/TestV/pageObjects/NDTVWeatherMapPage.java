@@ -2,11 +2,14 @@ package com.TestV.pageObjects;
 
 import java.util.List;
 
+import org.apache.tools.ant.taskdefs.WaitFor;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.TestV.utilities.ReadConfig;
 
@@ -14,17 +17,21 @@ public class NDTVWeatherMapPage {
 	WebDriver ldriver;
 	WebElement checkboxCityName, cityNameOnMap;
 	
+	
+	
 	public static String weatherCityName;
 	public static String weatherConditionKey, weatherConditionValue;
 	public static String weatherWindKey, weatherWindValue;
 	public static String weatherHumidityKey, weatherHumidityValue;
 	public static String weatherTempInCelKey,weatherTempInCelValue;
 	public static String weatherTempInFerhKey, weatherTempInFerhValue;
+	WebDriverWait wait;
 	
 	public NDTVWeatherMapPage(WebDriver rDriver)
 	{
 		ldriver=rDriver;
 		PageFactory.initElements(rDriver, this);
+		wait = new WebDriverWait(ldriver,20);
 	}
 
 	@FindBy(xpath = "//input[@id='searchBox']")
@@ -44,9 +51,14 @@ public class NDTVWeatherMapPage {
 	
 	@FindBy(xpath = "//span[@class='heading'][5]")
 	WebElement weatherTempInFerh;
+
+	//public 
 	
-	public void enterCityName(String CityName)
+	public void enterCityName(String CityName) throws InterruptedException
 	{
+		//Thread.sleep(5000);
+		
+		wait.until(ExpectedConditions.elementToBeClickable(txtSearchBox));
 		txtSearchBox.clear();
 		txtSearchBox.sendKeys(CityName);
 	}
@@ -54,22 +66,22 @@ public class NDTVWeatherMapPage {
 	public void enableCheckBoxCityName(String CityName) throws InterruptedException
 	{
 		checkboxCityName = ldriver.findElement(By.xpath("//input[@id='"+CityName+"']"));
-		Thread.sleep(5000);
-		
+		//Thread.sleep(5000);
+		wait.until(ExpectedConditions.elementToBeClickable(checkboxCityName));
 		if(checkboxCityName.isSelected()==false)
 		{
 			checkboxCityName.click();
-			Thread.sleep(2000);
+			//Thread.sleep(2000);
 		}
 	}
 	
-	public void validateCityNameOnMap(String CityName) throws InterruptedException
+	public void validateCityNameOnMap(String CityName) throws InterruptedException 
 	{
 		
 		cityNameOnMap = ldriver.findElement(By.xpath("//div[@class='cityText' and contains(text(),'"+CityName+"')]"));
-		Thread.sleep(5000);
+		//Thread.sleep(5000);
+		wait.until(ExpectedConditions.elementToBeClickable(cityNameOnMap));
 		weatherCityName = cityNameOnMap.getText();
-		
 		cityNameOnMap.click();
 	}
 	

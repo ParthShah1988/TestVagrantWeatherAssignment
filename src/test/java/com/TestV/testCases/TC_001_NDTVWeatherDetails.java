@@ -24,12 +24,12 @@ public class TC_001_NDTVWeatherDetails extends BaseClass {
 		logger.info("Setting cityname");
 		
 		lp.enableCheckBoxCityName(cityName);//Checking the checkbox of the searched city name in the search box on the map
-		Thread.sleep(5000);
+		//Thread.sleep(5000);
 		logger.info("Checkbox validation on City name is true");
 		
 		lp.validateCityNameOnMap(cityName);//Validating the city name searched in search box along with the city name visible on the map
 		logger.info("Checking the city on the map");
-		Thread.sleep(3000);
+		//Thread.sleep(3000);
 		
 		logger.info("fetching the weather condition details from map \n");
 		System.out.println("---------------------------------------------------------------");
@@ -43,7 +43,7 @@ public class TC_001_NDTVWeatherDetails extends BaseClass {
 		
 		lp.weatherTempInFerhDetails();//fetching temperature details in Fahrenheit  from the map
 		System.out.println("---------------------------------------------------------------");
-		Thread.sleep(3000);
+		//Thread.sleep(3000);
 		
 		logger.info("***********NDTV weather details completed**********");
 	}

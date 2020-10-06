@@ -20,6 +20,7 @@ public class ReadUserInputFromExcel {
 	public static float userInputTempCelVariance, userInputTempFerhVariance, userInputWindSpeedVariance, userInputHumidityVariance;
 	
 	//Returns city name value from Excel, user input
+	
 	@SuppressWarnings("deprecation")
 	public static String getUserCityName()
 	{

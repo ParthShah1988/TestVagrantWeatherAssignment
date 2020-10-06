@@ -22,12 +22,9 @@ import com.TestV.utilities.ReadUserInputFromExcel;
 public class BaseClass {
 	
 	ReadConfig readconfig = new ReadConfig();
-	//static ReadUserInputFromExcel readExcel = new ReadUserInputFromExcel();
 	public static String cityName = ReadUserInputFromExcel.getUserCityName();
     String baseUrl = readconfig.getBaseUrl();
-        
     WebDriver driver;
-    WebDriverWait wait;
     public static Logger logger;
     
     @Parameters("browser")
@@ -48,7 +45,7 @@ public class BaseClass {
 	    	
 	    	driver = new ChromeDriver(options);
 	    	
-	    	driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+	    	//driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 	 
     	}
     	

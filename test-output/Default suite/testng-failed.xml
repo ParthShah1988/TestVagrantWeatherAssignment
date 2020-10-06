@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.TestV.utilities.Comparator">
+      <class name="com.TestV.testCases.TC_001_NDTVWeatherDetails">
         <methods>
-          <include name="compareTempInCel"/>
-          <include name="compareHumidity"/>
-          <include name="compareWindSpeed"/>
+          <include name="getNDTVWeatherDetails"/>
+          <include name="teardown"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- com.TestV.utilities.Comparator -->
+      </class> <!-- com.TestV.testCases.TC_001_NDTVWeatherDetails -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
